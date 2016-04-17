@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.facts.Fact02">
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Fact02"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <TextView
+        android:textStyle="italic"
+        android:layout_below="@id/fact"
+        android:text="Shampoo was invented in India, not the commercial liquid ones but the method by use of herbs. The word 'shampoo' itself has been derived from the Sanskrit word champu, which means to massage."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/previous_button2"
+            android:text="Previous"
+            android:layout_height="45dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/next_button2"
+            android:text="Next"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_alignRight="@id/previous_button2"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

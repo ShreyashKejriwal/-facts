@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.facts.Fact05">
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Fact05"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <TextView
+        android:textStyle="italic"
+        android:layout_below="@id/fact"
+        android:text="When Dr Rajendra Prasad was appointed the President of India, he only took 50% of his salary, claiming he did not require more than that. Towards the end of his 12-year tenure he only took 25% of his salary. The salary of the President was Rs 10,000 back then."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/previous_button5"
+            android:text="Previous"
+            android:layout_height="45dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/next_button5"
+            android:text="Next"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_alignRight="@id/previous_button5"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+

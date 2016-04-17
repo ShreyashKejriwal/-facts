@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.facts.Fact03">
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Fact03"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <TextView
+        android:textStyle="italic"
+        android:layout_below="@id/fact"
+        android:text="The 2011 Kumbh Mela was the largest gathering of people with over 75 million pilgrims. The gathering was so huge that the crowd was visible from space."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/previous_button3"
+            android:text="Previous"
+            android:layout_height="45dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/next_button3"
+            android:text="Next"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_alignRight="@id/previous_button3"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

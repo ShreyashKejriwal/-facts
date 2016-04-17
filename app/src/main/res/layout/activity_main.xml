@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.facts.MainActivity">
+
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Fact01"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <TextView
+        android:textStyle="italic"
+        android:layout_below="@id/fact"
+        android:text=" India has the largest postal network in the world with over 1, 55,015 post offices. A single post office on an average serves a population of 7,175 people. The floating post office in Dal Lake, Srinagar, was inaugurated in August 2011."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+    <Button
+        android:id="@+id/next_button1"
+        android:text="Next"
+        android:layout_height="45dp"
+        android:layout_width="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+       />
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.facts.Fact15">
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Fact15"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <TextView
+        android:textStyle="italic"
+        android:layout_below="@id/fact"
+        android:text="Former Prime Minister Indira Gandhi asked the first Indian in space, Rakesh Sharma, about how India looked from space. His response was our famous patriotic song, Saare Jahaan Se Achcha."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/previous_button15"
+            android:text="Previous"
+            android:layout_height="45dp"
+            android:layout_width="175dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
